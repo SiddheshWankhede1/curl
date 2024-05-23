@@ -11,4 +11,4 @@ jobs:
     
     steps:
     - name: Use curl to fetch a URL
-      run: curl http://127.0.0.1:54579/?key=59589a03-f760-405f-93b1-d3edd22147ed
+      run: curl https://5732d659-c6b2-4736-968f-8cc475cfe633.mock.pstmn.io
