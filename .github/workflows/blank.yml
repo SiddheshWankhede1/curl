@@ -1,0 +1,14 @@
+name: Curl Example
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Use curl to fetch a URL
+      run: curl https://5732d659-c6b2-4736-968f-8cc475cfe633.mock.pstmn.io
